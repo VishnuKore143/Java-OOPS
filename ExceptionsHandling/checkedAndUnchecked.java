@@ -3,7 +3,7 @@ import java.io.*;
 public class checkedAndUnchecked {
     static void meth1(){
 
-        //this is checked exception
+        //this is unchecked exception
         try{
             System.out.println(10/0);
         }catch (Exception e){
